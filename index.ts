@@ -13,7 +13,7 @@ const port = process.env.PORT || 3000;
 // middleware
 app.use(express.json())
 app.use(cors({
-  origin: ['http://localhost:5173', 'https://book-store-mern-project-chi.vercel.app'],
+  origin: ['http://localhost:5173', 'https://book-store-mern-project-chi.vercel.app', 'https://book-store-mern-project-backend-94fm.vercel.app/'],
   credentials: true,
 }))
 
